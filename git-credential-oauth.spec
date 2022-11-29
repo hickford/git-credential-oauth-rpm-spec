@@ -52,7 +52,7 @@ install -m 0755 -vp %{gobuilddir}/bin/* %{buildroot}%{_bindir}/
 %files
 %license LICENSE.txt
 %doc CONTRIBUTING.md README.md
-%{_bindir}/*
+%{_bindir}/git-credential-oauth
 
 %gopkgfiles
 
